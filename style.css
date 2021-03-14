@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -9,4 +9,72 @@ body {
   padding: 0;
 }
 
-/* Add styles here! */
+/* My code bellow */
+
+html {
+  font-size: 18px;
+  color: hsl(0deg, 0%, 10%);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+header {
+  min-height: 50%;
+  padding-top: 128px;
+  border-bottom: 8px solid hsl(0deg, 0%, 30%);
+}
+
+main {
+  min-height: 50%;
+  background-color: hsl(0deg, 0%, 60%);
+  padding: 64px 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 64px;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  margin-bottom: 32px;
+}
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.intro-chunk p {
+  font-size: 1.25rem;
+  max-width: 32ch;
+}
+
+.max-width-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 8px solid hsl(0deg, 0%, 30%);
+  padding: 8px 32px 0;
+  margin-left: -32px;
+  margin-right: -16px;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  width: fit-content;
+  margin-top: 0;
+  margin-bottom: 32px;
+  margin-left: -48px;
+  padding: 16px 48px;
+}
